@@ -14,6 +14,7 @@ const BurgerView: React.FC<Props> = () =>{
           <div className="Seeds2"></div>
         </div>
         <div className="BreadBottom"></div>
+        <p>Price: </p>
       </div>
     </div>
   )
