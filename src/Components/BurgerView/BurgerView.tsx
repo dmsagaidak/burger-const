@@ -2,10 +2,10 @@ import React from 'react';
 import './BurgerView.css';
 
 interface Props {
-
+  amount: number;
 }
 
-const BurgerView: React.FC<Props> = () =>{
+const BurgerView: React.FC<Props> = (props) =>{
   return(
     <div className="burger-view">
       <div className="Burger">
@@ -14,7 +14,7 @@ const BurgerView: React.FC<Props> = () =>{
           <div className="Seeds2"></div>
         </div>
         <div className="BreadBottom"></div>
-        <p>Price: </p>
+        <p>Price: {props.amount}</p>
       </div>
     </div>
   )
