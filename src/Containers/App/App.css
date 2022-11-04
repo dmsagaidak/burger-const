@@ -6,7 +6,7 @@
   justify-content: space-evenly;
 }
 
-.ingreds{
+.container{
   width: 48vw;
   border: 2px solid #000;
 }
@@ -37,6 +37,10 @@
 
 .item-cont{
   padding: 10px 0;
+}
+
+.cont{
+  margin-bottom: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

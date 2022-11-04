@@ -7,7 +7,7 @@ interface Props {
 
 const BurgerView: React.FC<Props> = (props) =>{
   return(
-    <div className="burger-view">
+    <div className="container">
       <div className="Burger">
         <div className="BreadTop">
           <div className="Seeds1"></div>
